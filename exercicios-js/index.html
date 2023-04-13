@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/js.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercícios Javascript</title>
+</head>
+<body>
+    <h2>Exercícios JavaScript</h2>
+    <p>Rafael de Oliveira Silva</p>
+    <p>RA: 2022103036</p>
+    <img src="/src/js.png" alt="">
+    <div class="cubo">
+        <h1>2. Ao Cubo</h1>
+        <h2>Digite um número:</h2>
+        <input type="number" class="entrada">
+        <button class="botao">Ao cubo</button>
+        <h2 class="resultado"></h2>
+    </div>
+    <h3>------------------------------------------------------------------</h3>
+    
+    <div class="temperatura">
+        <h1>3. F para C</h1>
+        <h2>Digite a temperatura em Fahrenheit:</h2>
+        <input type="number" class="entradaF">
+        <button class="botaoCelcius">Celcius</button>
+        <h2 class="resultadoCelcius"></h2>
+    </div>
+    <h3>------------------------------------------------------------------</h3>
+    
+    <div class="triangulo">
+        <h1>4. Área do triângulo</h1>
+        <label for="base">Base</label>
+        <input type="number" id="base"> <br>
+        <label for="altura">Altura</label> 
+        <input type="number" id="altura"> <br>
+        <button class="botaoTriangulo" onclick="areaTriangulo()">Calcular área</button>
+        <h2 class="area"></h2>
+    </div>
+    <h3>------------------------------------------------------------------</h3>
+    
+    <div class="circulo">
+        <h1>5. Círculo</h1>
+        <h2>Digite o RAIO do círculo:</h2>
+        <input type="number" class="raio">
+        <button class="botaoCirculo" onclick="calculaCirculo()">Calcular</button>
+        <h2 class="areaCirculo"></h2>
+        <h2 class="perimetroCirculo"></h2>
+    </div>
+    <h3>------------------------------------------------------------------</h3>
+
+    <div class="invertido">
+        <h1>6. Número Invertido</h1>
+        <h2>Digite um número acima de 10:</h2>
+        <input type="number" class="numero">
+        <button class="botaoNumero" onclick="inverteNumero()">Inverter</button>
+        <h2 class="resInvertido"></h2>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
